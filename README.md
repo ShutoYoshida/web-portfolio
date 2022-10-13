@@ -1,7 +1,7 @@
 # web-portfolio
 
 このプロジェクトは、ポートフォリオのソースコードです。
-HTML/CSS, JavaScriptの練習のため作成しました。
+HTML/CSS, JavaScript の練習のため作成しました。
 ポートフォリオの人物は架空の人物であり、実在しません。
 
 ## コンテナ起動
@@ -19,6 +19,9 @@ $ docker run -dit --rm --name portfolio1 -v "$PWD/public":/usr/local/apache2/htd
 コンテナ起動中は、以下の URL にアクセスできます。
 
 <http://localhost:3000/>
+
+Heroku にデプロイされているため以下の URL でも閲覧可能です。
+https://prac-web-portfolio-yumi.herokuapp.com/
 
 ## コンテナ終了
 
